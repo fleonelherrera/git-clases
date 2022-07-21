@@ -57,3 +57,8 @@ m: mensaje
 > Subir un tag en específico
 
     git push origin <nombre-tag>
+
+## GIT REBASE
+Ordena los commits y los fusiona.
+
+    git rebase <rama-que-quiero-traer>
