@@ -59,6 +59,40 @@ m: mensaje
     git push origin <nombre-tag>
 
 ## GIT REBASE
-Ordena los commits y los fusiona.
+Ordena los commits y los fusiona. Tengo que estar sobre la rama master y hacer el git rebase.
 
     git rebase <rama-que-quiero-traer>
+    git rebase <dev>
+
+> Si tengo varios commits
+
+    git rebase --continue
+
+## GIT REBASE INTERACTIVO
+
+> ¿Para qué sirve?
+
+* Ordenar commits
+* Corregir mensajes de los commits
+* Unir commits
+* Separar commits
+
+    git rebase -i HEAD-4
+    git rebase -i <HASH>
+
+## Apuntadores
+
+> Apuntadores dinamicos
+
+* HEAD
+
+> Apuntadores estaticos
+
+* RAMAS
+* TAG
+* STASH
+
+## GIT REFLOG: LA HISTORIA DE LA HISTORIA DE GIT
+Tengo toda la interacción con el repositorio de git
+
+    git reflog
