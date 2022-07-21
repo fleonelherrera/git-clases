@@ -3,7 +3,7 @@
 
 # Status de archivos
 
-* UNTRACKED > Archivos que o se agregaron al index o estan en el working directory/
+* UNTRACKED > Archivos que o se agregaron al index o estan en el working directory
 
 * STAGED > Archivos que no fueron agregados al repositorio y cuyos cambios fueron validados.
 
